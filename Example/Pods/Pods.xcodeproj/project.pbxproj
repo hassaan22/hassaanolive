@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		23E6E9E27B7AE920951C2217D9414711 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		26A8C72E347C26F7E2AB2B46905680CA /* Pods-hassaanolive_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF93F0E66F9A0D22735F1CB511C9993B /* Pods-hassaanolive_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		399027EC0804A246842D7539EC190467 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		80D3A54E21ED37170031969C /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 80D3A54D21ED37170031969C /* Assets */; };
-		88F9F4DCE948BF74DC251186B68279FE /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1545D70C05B0541A2E88EB61C709CFB /* ReplaceMe.swift */; };
-		B113D74452DABFAF1137F45B67A0AA1B /* hassaanolive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD318DDA21CC96DE2DB7E3B2AD127CC /* hassaanolive-dummy.m */; };
-		C7B05D967F8C2DEA1E7A0E0DCE7AC6CA /* hassaanolive-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1373C709A29F952065407AD34340B3A /* hassaanolive-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FAB3E36B10ED69DCCE9B1ADA2BE2CB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		37082183DDF8579CA01CC0A6E51A86D1 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF3B3E896FE570AEDF46906E35F3A58 /* ReplaceMe.swift */; };
+		4DB6F96A4C64935E09B41F2A8A459B14 /* tacocat.png in Resources */ = {isa = PBXBuildFile; fileRef = B050879199D75F4D3B534D67EB31FAAA /* tacocat.png */; };
+		C3B3A64BD02E890B17E024807B23CA2F /* hassaanolive.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C47548DB872F9FB1818917C7A45D364D /* hassaanolive.bundle */; };
+		C97ED4268C85ACBF0D55631B537B8280 /* tacocat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87C80507C45793297B3CB1534D527D92 /* tacocat@2x.png */; };
+		CAD58DABB9662B2C1C5362303CFB45D9 /* hassaanolive-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E35112495ED06A9C267FA26EDD61342 /* hassaanolive-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD950A683B55BDD275BF79A5AF3449F4 /* hassaanolive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDC15A979340298E6377220331049C9 /* hassaanolive-dummy.m */; };
 		E4F274555053F72316471EE4DF648EFC /* Pods-hassaanolive_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5482216F017CAF16C13FBB05289740 /* Pods-hassaanolive_Tests-dummy.m */; };
+		F8DE19307DB2ED63CCF12DDCD0592AC3 /* tacocat@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 614F73F3546DFCB8FDB2B114F06CEB79 /* tacocat@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,45 +25,48 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C94E11AB769333DF7C726555FE0D6E9E;
+			remoteGlobalIDString = C3D5F7A0F7A0E9BE2508BB69F60F38A4;
 			remoteInfo = hassaanolive;
+		};
+		B87DB666A6F40B1D384EEEDDDEF142D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A300F13C46B5F80C3FE3F6BF567E9D5;
+			remoteInfo = "hassaanolive-hassaanolive";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08A6CA8AC22FCEBECAB5399E45883F95 /* hassaanolive.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = hassaanolive.xcconfig; sourceTree = "<group>"; };
 		0A8BC4CE3625202D88278B0EAF6D4CEC /* Pods-hassaanolive_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-hassaanolive_Tests.modulemap"; sourceTree = "<group>"; };
-		161867E890B66D8D17051E2C500B0390 /* hassaanolive-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "hassaanolive-prefix.pch"; sourceTree = "<group>"; };
 		1C5482216F017CAF16C13FBB05289740 /* Pods-hassaanolive_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-hassaanolive_Tests-dummy.m"; sourceTree = "<group>"; };
-		1C5BDB875DF19102FA7844EF2926897A /* hassaanolive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = hassaanolive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4631DE2CA4E54181EDD6C840614EAEAE /* Pods_hassaanolive_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hassaanolive_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FFF7E7ADFE53268AD3B98ADF550168F /* hassaanolive-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "hassaanolive-prefix.pch"; sourceTree = "<group>"; };
 		573FF0409AAB75318867805370E50807 /* Pods-hassaanolive_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hassaanolive_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5EFC89830DCAE1D986C081A83AFA38AE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		614F73F3546DFCB8FDB2B114F06CEB79 /* tacocat@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tacocat@3x.png"; sourceTree = "<group>"; };
 		6924E9E921020B1782C533467A8AAE0C /* Pods-hassaanolive_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-hassaanolive_Tests-resources.sh"; sourceTree = "<group>"; };
 		6AA217B52EFD2A8E82EF21A4ED0A04B4 /* Pods-hassaanolive_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-hassaanolive_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		6FD318DDA21CC96DE2DB7E3B2AD127CC /* hassaanolive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "hassaanolive-dummy.m"; sourceTree = "<group>"; };
-		71FBD21BCC26990E377AEAFCA5D801D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EDC15A979340298E6377220331049C9 /* hassaanolive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "hassaanolive-dummy.m"; sourceTree = "<group>"; };
+		73820BFE0250710BD3EFC4196CA02478 /* hassaanolive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = hassaanolive.framework; path = hassaanolive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E1C45624E7E87CAA2FD8F79335EF01C /* Pods-hassaanolive_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hassaanolive_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		80D3A54D21ED37170031969C /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		87C80507C45793297B3CB1534D527D92 /* tacocat@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tacocat@2x.png"; sourceTree = "<group>"; };
+		8E35112495ED06A9C267FA26EDD61342 /* hassaanolive-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "hassaanolive-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AF93F0E66F9A0D22735F1CB511C9993B /* Pods-hassaanolive_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-hassaanolive_Tests-umbrella.h"; sourceTree = "<group>"; };
-		C19439E2E7ECE914EAE843C0F6F42D7E /* hassaanolive.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = hassaanolive.modulemap; sourceTree = "<group>"; };
-		D1545D70C05B0541A2E88EB61C709CFB /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		B050879199D75F4D3B534D67EB31FAAA /* tacocat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = tacocat.png; sourceTree = "<group>"; };
+		B3C23F490E739BB421DA684936EDBEAD /* hassaanolive.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = hassaanolive.xcconfig; sourceTree = "<group>"; };
+		C29DE1A05569773D456961E0266B00A7 /* hassaanolive.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = hassaanolive.modulemap; sourceTree = "<group>"; };
+		C47548DB872F9FB1818917C7A45D364D /* hassaanolive.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = hassaanolive.bundle; path = hassaanolive.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0A7C5D9A8F2725CAB0DC01180E8D481 /* Pods_hassaanolive_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_hassaanolive_Tests.framework; path = "Pods-hassaanolive_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D72ECB5DD593F6E2BB94379DD5F8E0A8 /* Pods-hassaanolive_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-hassaanolive_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E1373C709A29F952065407AD34340B3A /* hassaanolive-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "hassaanolive-umbrella.h"; sourceTree = "<group>"; };
+		DFF3B3E896FE570AEDF46906E35F3A58 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		E8C2A58C2598B646683E59B39940614A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E993EEB17AFBFD68255F5B45E576A616 /* Pods-hassaanolive_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hassaanolive_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F1183BF18D782D0940E4D8BA19071483 /* ResourceBundle-hassaanolive-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-hassaanolive-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		116FFE58A75219EBDF768D4FF0E489B8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				399027EC0804A246842D7539EC190467 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		32499484A6D30A810F7C3936E7138867 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -69,48 +75,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4415D595D9BBD4D4AB2A39C1073F232F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FAB3E36B10ED69DCCE9B1ADA2BE2CB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD158F1719B84F32A4909E1897F72AEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		019E96F17917E22D16B80DD00273F8EC /* hassaanolive */ = {
+		222D636F0D7380BA5EFC62D3268C979D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				80D3A54D21ED37170031969C /* Assets */,
-				60B92D0739EDFDF510FD501612CA916B /* Classes */,
+				C47548DB872F9FB1818917C7A45D364D /* hassaanolive.bundle */,
+				73820BFE0250710BD3EFC4196CA02478 /* hassaanolive.framework */,
+				D0A7C5D9A8F2725CAB0DC01180E8D481 /* Pods_hassaanolive_Tests.framework */,
 			);
-			path = hassaanolive;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		232EC32AC400D30938A467521CFFF736 /* Development Pods */ = {
+		2A36545853A315E7537E9E336FF52E34 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5DA52B3038431F8376A32392F6612E75 /* hassaanolive */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		55542624ED6408FFFC426055A329662A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C19439E2E7ECE914EAE843C0F6F42D7E /* hassaanolive.modulemap */,
-				08A6CA8AC22FCEBECAB5399E45883F95 /* hassaanolive.xcconfig */,
-				6FD318DDA21CC96DE2DB7E3B2AD127CC /* hassaanolive-dummy.m */,
-				161867E890B66D8D17051E2C500B0390 /* hassaanolive-prefix.pch */,
-				E1373C709A29F952065407AD34340B3A /* hassaanolive-umbrella.h */,
-				71FBD21BCC26990E377AEAFCA5D801D0 /* Info.plist */,
+				C29DE1A05569773D456961E0266B00A7 /* hassaanolive.modulemap */,
+				B3C23F490E739BB421DA684936EDBEAD /* hassaanolive.xcconfig */,
+				6EDC15A979340298E6377220331049C9 /* hassaanolive-dummy.m */,
+				3FFF7E7ADFE53268AD3B98ADF550168F /* hassaanolive-prefix.pch */,
+				8E35112495ED06A9C267FA26EDD61342 /* hassaanolive-umbrella.h */,
+				5EFC89830DCAE1D986C081A83AFA38AE /* Info.plist */,
+				F1183BF18D782D0940E4D8BA19071483 /* ResourceBundle-hassaanolive-Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/hassaanolive";
 			sourceTree = "<group>";
 		};
-		5DA52B3038431F8376A32392F6612E75 /* hassaanolive */ = {
+		3C470A33C74C01678F7EDF6007ED08B1 /* hassaanolive */ = {
 			isa = PBXGroup;
 			children = (
-				019E96F17917E22D16B80DD00273F8EC /* hassaanolive */,
-				55542624ED6408FFFC426055A329662A /* Support Files */,
+				654CC2E3398DCA400E0BDD8E208D1247 /* Assets */,
 			);
 			name = hassaanolive;
-			path = ../..;
+			path = hassaanolive;
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -121,32 +135,45 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		60B92D0739EDFDF510FD501612CA916B /* Classes */ = {
+		64ACF20386035EB53CB5947CC765FD36 /* hassaanolive */ = {
 			isa = PBXGroup;
 			children = (
-				D1545D70C05B0541A2E88EB61C709CFB /* ReplaceMe.swift */,
+				C16DA0A1484C88CFBA6651353D57419E /* hassaanolive */,
+				977E76B015094BFDB0BADA82AF08DD43 /* Resources */,
+				2A36545853A315E7537E9E336FF52E34 /* Support Files */,
 			);
-			path = Classes;
+			name = hassaanolive;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		76BCA23E0471C3C195C8A3B5DA88AAEA /* Products */ = {
+		654CC2E3398DCA400E0BDD8E208D1247 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				1C5BDB875DF19102FA7844EF2926897A /* hassaanolive.framework */,
-				4631DE2CA4E54181EDD6C840614EAEAE /* Pods_hassaanolive_Tests.framework */,
+				B050879199D75F4D3B534D67EB31FAAA /* tacocat.png */,
+				87C80507C45793297B3CB1534D527D92 /* tacocat@2x.png */,
+				614F73F3546DFCB8FDB2B114F06CEB79 /* tacocat@3x.png */,
 			);
-			name = Products;
+			name = Assets;
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				232EC32AC400D30938A467521CFFF736 /* Development Pods */,
+				D3DFCD8403301A4B74B917CC19AF294A /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				76BCA23E0471C3C195C8A3B5DA88AAEA /* Products */,
+				222D636F0D7380BA5EFC62D3268C979D /* Products */,
 				C410BF944DDB6424205E7B7410069FFD /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		977E76B015094BFDB0BADA82AF08DD43 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3C470A33C74C01678F7EDF6007ED08B1 /* hassaanolive */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -157,12 +184,38 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C16DA0A1484C88CFBA6651353D57419E /* hassaanolive */ = {
+			isa = PBXGroup;
+			children = (
+				ECF1934A098FE29EC505C3EE186B9DC5 /* Classes */,
+			);
+			name = hassaanolive;
+			path = hassaanolive;
+			sourceTree = "<group>";
+		};
 		C410BF944DDB6424205E7B7410069FFD /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				F7546BF791C7A720413FF3EB7CC2B3BF /* Pods-hassaanolive_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D3DFCD8403301A4B74B917CC19AF294A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64ACF20386035EB53CB5947CC765FD36 /* hassaanolive */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		ECF1934A098FE29EC505C3EE186B9DC5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DFF3B3E896FE570AEDF46906E35F3A58 /* ReplaceMe.swift */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		F7546BF791C7A720413FF3EB7CC2B3BF /* Pods-hassaanolive_Tests */ = {
@@ -194,11 +247,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8610FC25799B9D9D4A5F0FEC070C4AD1 /* Headers */ = {
+		8FCE6C4F7083048A62560EB2E0A9BB6B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7B05D967F8C2DEA1E7A0E0DCE7AC6CA /* hassaanolive-umbrella.h in Headers */,
+				CAD58DABB9662B2C1C5362303CFB45D9 /* hassaanolive-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,25 +274,43 @@
 			);
 			name = "Pods-hassaanolive_Tests";
 			productName = "Pods-hassaanolive_Tests";
-			productReference = 4631DE2CA4E54181EDD6C840614EAEAE /* Pods_hassaanolive_Tests.framework */;
+			productReference = D0A7C5D9A8F2725CAB0DC01180E8D481 /* Pods_hassaanolive_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C94E11AB769333DF7C726555FE0D6E9E /* hassaanolive */ = {
+		8A300F13C46B5F80C3FE3F6BF567E9D5 /* hassaanolive-hassaanolive */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB3113A0E1604D532743FBB0BF7C046A /* Build configuration list for PBXNativeTarget "hassaanolive" */;
+			buildConfigurationList = 6360F01949FE110786DAC95C7F4B76EF /* Build configuration list for PBXNativeTarget "hassaanolive-hassaanolive" */;
 			buildPhases = (
-				8610FC25799B9D9D4A5F0FEC070C4AD1 /* Headers */,
-				D43EF275BE0FE24EB7FD40150E47F1D2 /* Sources */,
-				116FFE58A75219EBDF768D4FF0E489B8 /* Frameworks */,
-				2751E119E028944D38EA3C1859C5E252 /* Resources */,
+				9B772E74AF0B20BC327E33D53E3B4EC0 /* Sources */,
+				BD158F1719B84F32A4909E1897F72AEC /* Frameworks */,
+				10EA635F7A63FCFFC3D4B748D07510CF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = "hassaanolive-hassaanolive";
+			productName = "hassaanolive-hassaanolive";
+			productReference = C47548DB872F9FB1818917C7A45D364D /* hassaanolive.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C3D5F7A0F7A0E9BE2508BB69F60F38A4 /* hassaanolive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2395E8B932CA080B88243D517562B4D7 /* Build configuration list for PBXNativeTarget "hassaanolive" */;
+			buildPhases = (
+				8FCE6C4F7083048A62560EB2E0A9BB6B /* Headers */,
+				D9FC76EA9625180F060F3E945B72394E /* Sources */,
+				4415D595D9BBD4D4AB2A39C1073F232F /* Frameworks */,
+				033407B92A2CF1BBE1B675D555051E65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9F74075276FEBDD347DD19B40FAF4BF /* PBXTargetDependency */,
+			);
 			name = hassaanolive;
 			productName = hassaanolive;
-			productReference = 1C5BDB875DF19102FA7844EF2926897A /* hassaanolive.framework */;
+			productReference = 73820BFE0250710BD3EFC4196CA02478 /* hassaanolive.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -259,22 +330,33 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 76BCA23E0471C3C195C8A3B5DA88AAEA /* Products */;
+			productRefGroup = 222D636F0D7380BA5EFC62D3268C979D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C94E11AB769333DF7C726555FE0D6E9E /* hassaanolive */,
+				C3D5F7A0F7A0E9BE2508BB69F60F38A4 /* hassaanolive */,
+				8A300F13C46B5F80C3FE3F6BF567E9D5 /* hassaanolive-hassaanolive */,
 				88EABB6F5345F91C735D078F2DF20D32 /* Pods-hassaanolive_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2751E119E028944D38EA3C1859C5E252 /* Resources */ = {
+		033407B92A2CF1BBE1B675D555051E65 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80D3A54E21ED37170031969C /* Assets in Resources */,
+				C3B3A64BD02E890B17E024807B23CA2F /* hassaanolive.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10EA635F7A63FCFFC3D4B748D07510CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB6F96A4C64935E09B41F2A8A459B14 /* tacocat.png in Resources */,
+				C97ED4268C85ACBF0D55631B537B8280 /* tacocat@2x.png in Resources */,
+				F8DE19307DB2ED63CCF12DDCD0592AC3 /* tacocat@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,12 +370,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D43EF275BE0FE24EB7FD40150E47F1D2 /* Sources */ = {
+		9B772E74AF0B20BC327E33D53E3B4EC0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B113D74452DABFAF1137F45B67A0AA1B /* hassaanolive-dummy.m in Sources */,
-				88F9F4DCE948BF74DC251186B68279FE /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9FC76EA9625180F060F3E945B72394E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD950A683B55BDD275BF79A5AF3449F4 /* hassaanolive-dummy.m in Sources */,
+				37082183DDF8579CA01CC0A6E51A86D1 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,43 +400,18 @@
 		C19A66B4DDD370E95EE89AACFAB7A8CB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = hassaanolive;
-			target = C94E11AB769333DF7C726555FE0D6E9E /* hassaanolive */;
+			target = C3D5F7A0F7A0E9BE2508BB69F60F38A4 /* hassaanolive */;
 			targetProxy = 1B2486F5AFF23B732826617F56CCDC94 /* PBXContainerItemProxy */;
+		};
+		F9F74075276FEBDD347DD19B40FAF4BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "hassaanolive-hassaanolive";
+			target = 8A300F13C46B5F80C3FE3F6BF567E9D5 /* hassaanolive-hassaanolive */;
+			targetProxy = B87DB666A6F40B1D384EEEDDDEF142D4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0514C49F3359851642A4DEADE1B07730 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08A6CA8AC22FCEBECAB5399E45883F95 /* hassaanolive.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/hassaanolive/hassaanolive-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/hassaanolive/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/hassaanolive/hassaanolive.modulemap";
-				PRODUCT_NAME = hassaanolive;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		0DE6622448170D46879A82B8DCDD80E6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E993EEB17AFBFD68255F5B45E576A616 /* Pods-hassaanolive_Tests.release.xcconfig */;
@@ -374,7 +438,8 @@
 				PRODUCT_NAME = Pods_hassaanolive_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -445,34 +510,35 @@
 			};
 			name = Debug;
 		};
-		5EB72F849F899717A29A8DE299EFB129 /* Release */ = {
+		67121E6D5E769A2982424949A3233894 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08A6CA8AC22FCEBECAB5399E45883F95 /* hassaanolive.xcconfig */;
+			baseConfigurationReference = B3C23F490E739BB421DA684936EDBEAD /* hassaanolive.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/hassaanolive/hassaanolive-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/hassaanolive/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/hassaanolive";
+				INFOPLIST_FILE = "Target Support Files/hassaanolive/ResourceBundle-hassaanolive-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/hassaanolive/hassaanolive.modulemap";
 				PRODUCT_NAME = hassaanolive;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		86827B0D11170AEFEACFFFF60E7DBE1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3C23F490E739BB421DA684936EDBEAD /* hassaanolive.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/hassaanolive";
+				INFOPLIST_FILE = "Target Support Files/hassaanolive/ResourceBundle-hassaanolive-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = hassaanolive;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -569,6 +635,69 @@
 			};
 			name = Release;
 		};
+		C1A1959553FDB71BF871B3196425A685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3C23F490E739BB421DA684936EDBEAD /* hassaanolive.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/hassaanolive/hassaanolive-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/hassaanolive/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/hassaanolive/hassaanolive.modulemap";
+				PRODUCT_NAME = hassaanolive;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED98FD88A72C44B3E5A3608D92D9DD8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3C23F490E739BB421DA684936EDBEAD /* hassaanolive.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/hassaanolive/hassaanolive-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/hassaanolive/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/hassaanolive/hassaanolive.modulemap";
+				PRODUCT_NAME = hassaanolive;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -577,6 +706,15 @@
 			buildConfigurations = (
 				9C87A057BFFB34D85278FAF2BA3706B9 /* Debug */,
 				0DE6622448170D46879A82B8DCDD80E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2395E8B932CA080B88243D517562B4D7 /* Build configuration list for PBXNativeTarget "hassaanolive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED98FD88A72C44B3E5A3608D92D9DD8D /* Debug */,
+				C1A1959553FDB71BF871B3196425A685 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -590,11 +728,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB3113A0E1604D532743FBB0BF7C046A /* Build configuration list for PBXNativeTarget "hassaanolive" */ = {
+		6360F01949FE110786DAC95C7F4B76EF /* Build configuration list for PBXNativeTarget "hassaanolive-hassaanolive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0514C49F3359851642A4DEADE1B07730 /* Debug */,
-				5EB72F849F899717A29A8DE299EFB129 /* Release */,
+				67121E6D5E769A2982424949A3233894 /* Debug */,
+				86827B0D11170AEFEACFFFF60E7DBE1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

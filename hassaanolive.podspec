@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'hassaanolive'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of hassaanolive.'
+  s.summary          = 'This is a test to see if resources are available!'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,13 +18,13 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+This is a test to test my pod and see if it works. Thanks for checking in
+DESC
 
   s.homepage         = 'https://github.com/hassaan22/hassaanolive'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'hassaan22' => 'Hassaan.Shakeel@docusign.com' }
+  s.author           = { 'hassaan22' => 'shakeel@berkeley.edu' }
   s.source           = { :git => 'https://github.com/hassaan22/hassaanolive.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'hassaanolive/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'hassaanolive' => ['hassaanolive/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'hassaanolive' => ['hassaanolive/Assets/*.png']
+    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

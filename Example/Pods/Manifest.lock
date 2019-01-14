@@ -1,0 +1,16 @@
+PODS:
+  - hassaanolive (0.1.0)
+
+DEPENDENCIES:
+  - hassaanolive (from `../`)
+
+EXTERNAL SOURCES:
+  hassaanolive:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  hassaanolive: 6c2f38f6b2da17d306996052ea31f90b412e5d98
+
+PODFILE CHECKSUM: e236a6e173583e53775e5b4620adc2400df8b40e
+
+COCOAPODS: 1.1.1

@@ -1,0 +1,22 @@
+{
+  "name": "hassaanolive",
+  "version": "0.1.0",
+  "summary": "A short description of hassaanolive.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hassaan22/hassaanolive",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hassaan22": "Hassaan.Shakeel@docusign.com"
+  },
+  "source": {
+    "git": "https://github.com/hassaan22/hassaanolive.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "hassaanolive/Classes/**/*"
+}

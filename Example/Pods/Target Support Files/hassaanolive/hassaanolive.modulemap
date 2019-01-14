@@ -1,0 +1,6 @@
+framework module hassaanolive {
+  umbrella header "hassaanolive-umbrella.h"
+
+  export *
+  module * { export * }
+}

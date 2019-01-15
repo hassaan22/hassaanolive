@@ -10,10 +10,10 @@
 		23E6E9E27B7AE920951C2217D9414711 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		26A8C72E347C26F7E2AB2B46905680CA /* Pods-hassaanolive_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF93F0E66F9A0D22735F1CB511C9993B /* Pods-hassaanolive_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2FAB3E36B10ED69DCCE9B1ADA2BE2CB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		37082183DDF8579CA01CC0A6E51A86D1 /* OliveIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF3B3E896FE570AEDF46906E35F3A58 /* OliveIcons.swift */; };
+		37082183DDF8579CA01CC0A6E51A86D1 /* OliveIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF3B3E896FE570AEDF46906E35F3A58 /* OliveIcon.swift */; };
 		4DB6F96A4C64935E09B41F2A8A459B14 /* tacocat.png in Resources */ = {isa = PBXBuildFile; fileRef = B050879199D75F4D3B534D67EB31FAAA /* tacocat.png */; };
 		80D3A55621ED5EDA0031969C /* pleasework.json in Resources */ = {isa = PBXBuildFile; fileRef = 80D3A55521ED5EDA0031969C /* pleasework.json */; };
-		80D3A55821ED65200031969C /* UIImage+OliveIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D3A55721ED65200031969C /* UIImage+OliveIcons.swift */; };
+		80D3A55821ED65200031969C /* UIImage+OliveIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D3A55721ED65200031969C /* UIImage+OliveIcon.swift */; };
 		C3B3A64BD02E890B17E024807B23CA2F /* hassaanolive.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C47548DB872F9FB1818917C7A45D364D /* hassaanolive.bundle */; };
 		C97ED4268C85ACBF0D55631B537B8280 /* tacocat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87C80507C45793297B3CB1534D527D92 /* tacocat@2x.png */; };
 		CAD58DABB9662B2C1C5362303CFB45D9 /* hassaanolive-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E35112495ED06A9C267FA26EDD61342 /* hassaanolive-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -53,7 +53,7 @@
 		73820BFE0250710BD3EFC4196CA02478 /* hassaanolive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = hassaanolive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E1C45624E7E87CAA2FD8F79335EF01C /* Pods-hassaanolive_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hassaanolive_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		80D3A55521ED5EDA0031969C /* pleasework.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pleasework.json; sourceTree = "<group>"; };
-		80D3A55721ED65200031969C /* UIImage+OliveIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+OliveIcons.swift"; sourceTree = "<group>"; };
+		80D3A55721ED65200031969C /* UIImage+OliveIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+OliveIcon.swift"; sourceTree = "<group>"; };
 		87C80507C45793297B3CB1534D527D92 /* tacocat@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tacocat@2x.png"; sourceTree = "<group>"; };
 		8E35112495ED06A9C267FA26EDD61342 /* hassaanolive-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "hassaanolive-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -64,7 +64,7 @@
 		C47548DB872F9FB1818917C7A45D364D /* hassaanolive.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hassaanolive.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A7C5D9A8F2725CAB0DC01180E8D481 /* Pods_hassaanolive_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hassaanolive_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D72ECB5DD593F6E2BB94379DD5F8E0A8 /* Pods-hassaanolive_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-hassaanolive_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DFF3B3E896FE570AEDF46906E35F3A58 /* OliveIcons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OliveIcons.swift; sourceTree = "<group>"; };
+		DFF3B3E896FE570AEDF46906E35F3A58 /* OliveIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OliveIcon.swift; sourceTree = "<group>"; };
 		E8C2A58C2598B646683E59B39940614A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E993EEB17AFBFD68255F5B45E576A616 /* Pods-hassaanolive_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hassaanolive_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F1183BF18D782D0940E4D8BA19071483 /* ResourceBundle-hassaanolive-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-hassaanolive-Info.plist"; sourceTree = "<group>"; };
@@ -214,8 +214,8 @@
 		ECF1934A098FE29EC505C3EE186B9DC5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				DFF3B3E896FE570AEDF46906E35F3A58 /* OliveIcons.swift */,
-				80D3A55721ED65200031969C /* UIImage+OliveIcons.swift */,
+				DFF3B3E896FE570AEDF46906E35F3A58 /* OliveIcon.swift */,
+				80D3A55721ED65200031969C /* UIImage+OliveIcon.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -385,8 +385,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD950A683B55BDD275BF79A5AF3449F4 /* hassaanolive-dummy.m in Sources */,
-				80D3A55821ED65200031969C /* UIImage+OliveIcons.swift in Sources */,
-				37082183DDF8579CA01CC0A6E51A86D1 /* OliveIcons.swift in Sources */,
+				80D3A55821ED65200031969C /* UIImage+OliveIcon.swift in Sources */,
+				37082183DDF8579CA01CC0A6E51A86D1 /* OliveIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,8 +16,8 @@ public extension UIImage {
 }
 
 public class OliveIcons {
-    public class var docusignLogo : UIImage {
-        return UIImage.bundledImage(named: "tacocat")!
+    public class var docusignLogo : UIImage? {
+        return UIImage.bundledImage(named: "tacocat")
     }
 
 }

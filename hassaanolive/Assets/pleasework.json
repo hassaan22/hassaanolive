@@ -1,0 +1,130 @@
+{
+  "properties": [
+    {
+      "category": "web",
+      "scope": "component",
+      "type": "color",
+      "value": "rgb(204, 204, 204)",
+      "name": "badgeTransparentBorderColor"
+    },
+    {
+      "category": "web",
+      "scope": "component",
+      "type": "color",
+      "value": "rgb(119, 119, 119)",
+      "name": "badgeTransparentTextColor"
+    },
+    {
+      "category": "web",
+      "scope": "component",
+      "type": "color",
+      "value": "rgb(251, 52, 73)",
+      "name": "badgeRedHighContrastBackgroundColor"
+    },
+    {
+      "category": "web",
+      "scope": "component",
+      "type": "color",
+      "value": "rgb(209, 50, 57)",
+      "name": "badgeRedBackgroundColor"
+    },
+    {
+      "category": "web",
+      "scope": "component",
+      "type": "color",
+      "value": "rgb(44, 110, 225)",
+      "name": "badgeBlueBackgroundColor"
+    },
+    {
+      "category": "web",
+      "scope": "component",
+      "type": "color",
+      "value": "rgb(255, 255, 255)",
+      "name": "badgeTextColor"
+    },
+    {
+      "category": "web",
+      "scope": "component",
+      "type": "color",
+      "value": "rgb(51, 51, 51)",
+      "name": "badgeYellowTextColor"
+    },
+    {
+      "category": "web",
+      "scope": "component",
+      "type": "color",
+      "value": "rgb(255, 206, 0)",
+      "name": "badgeYellowBackgroundColor"
+    },
+    {
+      "category": "web",
+      "scope": "component",
+      "type": "color",
+      "value": "rgb(119, 119, 119)",
+      "name": "badgeNeutralBackgroundColor"
+    },
+    {
+      "category": "web",
+      "scope": "component",
+      "type": "color",
+      "value": "rgb(0, 137, 56)",
+      "name": "badgeGreenBackgroundColor"
+    },
+    {
+      "category": "web",
+      "scope": "component",
+      "type": "color",
+      "value": "rgb(204, 76, 21)",
+      "name": "badgeOrangeBackgroundColor"
+    },
+    {
+      "category": "web",
+      "scope": "component",
+      "type": "color",
+      "value": "rgb(61, 126, 143)",
+      "name": "badgeTurquoiseBackgroundColor"
+    },
+    {
+      "category": "web",
+      "scope": "component",
+      "type": "color",
+      "value": "rgb(51, 51, 51)",
+      "name": "colorTextBlack"
+    },
+    {
+      "category": "web",
+      "scope": "component",
+      "type": "color",
+      "value": "rgb(255, 255, 255)",
+      "name": "colorTextWhite"
+    },
+    {
+      "category": "web",
+      "scope": "component",
+      "type": "color",
+      "value": "rgb(102, 102, 102)",
+      "name": "colorTextGray"
+    },
+    {
+      "category": "web",
+      "scope": "component",
+      "type": "color",
+      "value": "rgb(209, 50, 57)",
+      "name": "colorTextRed"
+    },
+    {
+      "category": "web",
+      "scope": "component",
+      "type": "color",
+      "value": "rgb(44, 110, 225)",
+      "name": "colorTextBlue"
+    },
+    {
+      "category": "web",
+      "scope": "component",
+      "type": "color",
+      "value": "rgb(0, 137, 56)",
+      "name": "colorTextGreen"
+    }
+  ]
+}

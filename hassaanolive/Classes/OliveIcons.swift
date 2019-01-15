@@ -1,7 +1,7 @@
 
 public class OliveIcons {
 
-    public class var docusignLogo : UIImage? {
+    public static var tacocat : UIImage? {
         return UIImage.oliveIcon(named: "tacocat")
     }
 

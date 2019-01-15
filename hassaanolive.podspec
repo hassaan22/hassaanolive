@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'hassaanolive'
-  s.version          = '0.9.2'
+  s.version          = '1.0.0'
   s.summary          = 'This is a test to see if resources are available!'
 
 # This description is used to generate tags and improve search results.
